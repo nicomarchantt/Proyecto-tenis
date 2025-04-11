@@ -7,10 +7,13 @@ import pandas as pd
 # df
 df = pd.read_csv("Data.csv")
 df_clean = pd.read_csv("Data_Final_ATP.csv")
+df_players = pd.read_csv("player_overviews.csv")
 
 # Funciones para limpiar
 clean_df = clean.clean(df)
 df_final = clean.export_clean_df(df_clean)
+df_players_clean = clean.clean_2(df_players)
+df_players_final = clean.export_clean_2_df(df_players_clean)
 
 # Funciones para visualizar
 vis.plot_tipo_torneo(df_clean)
