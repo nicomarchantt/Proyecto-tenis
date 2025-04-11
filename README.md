@@ -22,7 +22,7 @@ Visualización: Se generaron gráficos y visualizaciones que representan de mane
 
 La evolución en el rendimiento de los jugadores de tenis profesional masculino ha cambiado significativamente entre 2000 y 2016.​
 
-Factores como la superficie de la cancha y la ronda del torneo influyen en el rendimiento de los jugadores.​
+Factores como la superficie de la pista y la ronda del torneo influyen en el rendimiento de los jugadores.​
 
 El ranking de los jugadores tiene una correlación directa con su probabilidad de ganar partidos.​
 
@@ -30,11 +30,14 @@ El ranking de los jugadores tiene una correlación directa con su probabilidad d
 
 Se utilizó el conjunto de datos mencionado para analizar diversos aspectos del tenis profesional masculino, incluyendo:​
 
-Rendimiento de los jugadores en diferentes superficies de cancha.​
+Rendimiento de los jugadores en diferentes superficies, tipos de torneos y ronda del torneo.
+https://github.com/nicomarchantt/Proyecto-tenis/blob/main/figures/Rendimiento%20general.gif​ 
 
 Relación entre el ranking de los jugadores y sus tasas de victoria.​
+https://github.com/nicomarchantt/Proyecto-tenis/blob/main/figures/Rendimiento%20en%20finales.gif
 
 Relación entre la mano dominante de los jugadores y sus tasas de victoria.
+https://github.com/nicomarchantt/Proyecto-tenis/blob/main/figures/Rendimiento%20en%20finales%202.gif
 
 # Resultados
 
