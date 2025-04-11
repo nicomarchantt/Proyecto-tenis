@@ -22,7 +22,7 @@ Visualización: Se generaron gráficos y visualizaciones que representan de mane
 
 La evolución en el rendimiento de los jugadores de tenis profesional masculino ha cambiado significativamente entre 2000 y 2016.​
 
-Factores como la superficie de la cancha y la ronda del torneo influyen en el rendimiento de los jugadores.​
+Factores como la superficie de la pista y la ronda del torneo influyen en el rendimiento de los jugadores.​
 
 El ranking de los jugadores tiene una correlación directa con su probabilidad de ganar partidos.​
 
