@@ -53,3 +53,20 @@ def clean (df):
 def export_clean_df(clean_df):
     clean_df.to_csv("Data_Final_ATP.csv", index=False)
     return clean_df
+
+#Función para el segundo DataFrame
+def clean_2 (df_players):
+    df_players['displayname'] = df_players['last_name'].str.title() + ' ' + df_players['first_name'].str[0].str.upper() + '.'
+    df_players = df_players[
+        (df_players['displayname'].notna()) & 
+        (df_players['displayname'] != '') & 
+        (df_players['displayname'] != 'Unknown U.')
+        ]   
+    df_players = df_players.drop_duplicates(subset=['displayname'])
+    df_players = df_players[df_players['flag_code'].notna()]
+    return df_players
+
+#Función para exportar el segundo DataFrame limpio
+def export_clean_2_df(clean_2_df):
+    clean_2_df.to_csv("player_overviews_clean.csv", index=False)
+    return clean_2_df
