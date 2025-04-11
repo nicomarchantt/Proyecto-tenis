@@ -30,11 +30,13 @@ El ranking de los jugadores tiene una correlación directa con su probabilidad d
 
 Se utilizó el conjunto de datos mencionado para analizar diversos aspectos del tenis profesional masculino, incluyendo:​
 
-Rendimiento de los jugadores en diferentes superficies de cancha.​
+Rendimiento de los jugadores en diferentes superficies.​
 
 Relación entre el ranking de los jugadores y sus tasas de victoria.​
+https://github.com/nicomarchantt/Proyecto-tenis/blob/main/figures/Rendimiento%20en%20finales.gif
 
 Relación entre la mano dominante de los jugadores y sus tasas de victoria.
+https://github.com/nicomarchantt/Proyecto-tenis/blob/main/figures/Rendimiento%20en%20finales%202.gif
 
 # Resultados
 
